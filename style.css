@@ -1,0 +1,67 @@
+.carousel-item{
+    padding: 20px 30px;
+}
+
+.button-design{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 15px;
+}
+
+p{
+    color: dimgray;
+}
+
+.card{
+    border: none;
+    box-shadow: 1px 1px 10px rgb(228, 227, 227);
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.card-deck{
+    margin-top: 20px;
+}
+
+h6{
+    color: orange;
+}
+
+.section-margin{
+    margin-top: 55px;
+}
+
+.last-section{
+    margin-top: 100px;
+}
+
+.last-section h1{
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+.last-section h5{
+    text-align: center;
+    padding-top: 20px;
+}
+
+footer{
+    margin-top: 10%;
+}
+
+.box{
+    box-shadow: 0px 0px 30px #e6e4e4;
+    margin: 10px 10px;
+    padding: 10px 20px;
+    border-radius: ;
+}
+
+.box-1{
+    border-radius: 5px 15px 5px 25px;
+}
+
+.box-2, .box-3{
+    border-radius: 15px 5px 25px 5px;
+}
