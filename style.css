@@ -27,7 +27,13 @@ p{
     border-radius: 10px;
     text-align: center;
     padding-bottom: 15px;
+    transition: transform 0.2s;
 }
+
+.card:hover{
+    transform: scale(1.1);
+}
+
 .card-deck{
     margin-top: 20px;
 }
@@ -62,6 +68,12 @@ footer{
     box-shadow: 0px 0px 30px #e6e4e4;
     margin: 10px 10px;
     padding: 10px 20px;
+}
+
+.box:hover{
+    border-left: 3px solid;
+    border-image: linear-gradient(360deg, orange, pink);
+    border-image-slice: 1;
 }
 
 .box-1{
