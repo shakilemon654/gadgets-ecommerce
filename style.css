@@ -2,6 +2,13 @@
     padding: 20px 30px;
 }
 
+.bg-carousel{
+    background-image: url(images/bg-carousel.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size:102px 100px;
+}
+
 .button-design{
     background-color: black;
     color: white;
