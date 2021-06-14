@@ -1,91 +1,22 @@
-.carousel-item{
-    padding: 20px 30px;
-}
-
-.bg-carousel{
-    background-image: url(images/bg-carousel.png);
-    background-repeat: no-repeat;
-    background-position-y: bottom;
-    background-size:102px 100px;
-}
-
-.button-design{
-    background-color: black;
-    color: white;
+.panda-card{
     border: none;
-    border-radius: 5px;
-    padding: 7px 15px;
 }
-
-p{
-    color: dimgray;
-}
-
-.card{
+.panda-card-footer{
+    background-color: white;
     border: none;
-    box-shadow: 1px 1px 10px rgb(228, 227, 227);
-    border-radius: 10px;
-    text-align: center;
-    padding-bottom: 15px;
-    transition: transform 0.2s;
+}
+.categories img{
+    width: 100px;
+}
+.panda-slide .carousel-item{
+    background-color: #fceae8;
+    border-radius: 1em;
 }
 
-.card:hover{
-    transform: scale(1.1);
-}
-
-.card-deck{
-    margin-top: 20px;
-}
-
-h6{
-    color: orange;
-}
-
-.section-margin{
-    margin-top: 55px;
-}
-
-.last-section{
-    margin-top: 100px;
-}
-
-.last-section h1{
-    margin-bottom: 45px;
-    text-align: center;
-}
-
-.last-section h5{
-    text-align: center;
-    padding-top: 20px;
-}
-
-footer{
-    margin-top: 10%;
-}
-
-.box{
-    box-shadow: 0px 0px 30px #e6e4e4;
-    margin: 10px 10px;
-    padding: 10px 20px;
-}
-
-.box:hover{
-    border-left: 3px solid;
-    border-image: linear-gradient(360deg, orange, pink);
-    border-image-slice: 1;
-}
-
-.box-1{
-    border-radius: 5px 15px 5px 25px;
-}
-
-.box-2, .box-3{
-    border-radius: 15px 5px 25px 5px;
-}
-
-#Categories{
-    padding-bottom: 15px;
-    border-bottom: 1px solid red;
-    : 30px;
+input{
+   box-sizing: border-box;
+   margin-top: 2px;
+   padding: 5px!important;
+   line-height: 30px;
+   border: none;
 }
